@@ -1,0 +1,1 @@
+.zshrc comes in ~/.zshrc
