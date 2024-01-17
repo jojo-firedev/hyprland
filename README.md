@@ -1,7 +1,9 @@
 # hyprland
+
 collection of dot config files for hyprland with a simple install script for a fresh Arch linux with yay
 
 You can grab the config files and install packages by hand with this commnad
+
 ```
 yay -S hyprland-bin kitty waybar-hyprland \
     swaybg swaylock-effects wofi wlogout mako thunar \
@@ -13,3 +15,21 @@ yay -S hyprland-bin kitty waybar-hyprland \
 ```
 
 Or you can use the attached script "set-hypr" to install everything for you.
+
+
+
+# Personal Notes
+
+.zshrc comes in ~/.zshrc
+
+Export packages to file
+
+```
+pacman -Qqe > package_list.txt
+```
+
+Install packages from file
+
+```
+pacman -S - < package_list.txt
+```
